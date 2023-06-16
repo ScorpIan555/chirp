@@ -5,8 +5,8 @@ import "~/styles/globals.css";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return {
-    <ClerkProvider {..pageProps}> 
-    <Component {...pageProps} /> 
+    < ClerkProvider {..pageProps }>
+      <Component {...pageProps} /> 
     </ClerkProvider >
   };
 };
