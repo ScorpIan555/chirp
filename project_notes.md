@@ -2,6 +2,18 @@
 **
 [Theo's Video](https://www.youtube.com/watch?v=YkOSUVzOAA4)
 
+## Stack Docs
+1.  Database:
+    -   Planetscale: https://planetscale.com/docs/concepts/what-is-planetscale
+2.  Auth:
+    -   Clerk:  https://clerk.com/
+3.  Logging:
+    -   Axiom:  https://axiom.co/
+4.  Deployment:
+    -   Vercel:  https://vercel.com/dashboard
+5.  ORM:
+    -   Prisma:  https://www.prisma.io
+
 ## 2023-06-27
 -  Added clerk.  In my previous session with this project, I'd had to deviate a bit from the video b/c Theo used a beta quickstart for @clerk/nextjs package (I think it was the clerk setup), so just to note that down.
 -  Adding axiom for logging:  https://axiom.co/
@@ -15,16 +27,4 @@
 -   **Reminder**: Typescript won't pick up changes after you make changes in the Prisma schema file and do a migration, so make sure to either run `npx prisma db generate` or `npm i` (which also runs `prisma generate`) so the ts compiler can pick up on any changes w/ the db schema
 -   Pick up from timestamp 21:15 (open video description for chapter)
 
-
-
-## Stack Docs
-1.  Database:
-    -   Planetscale: https://planetscale.com/docs/concepts/what-is-planetscale
-2.  Auth:
-    -   Clerk:  https://clerk.com/
-3.  Logging:
-    -   Axiom:  https://axiom.co/
-4.  Deployment:
-    -   Vercel:  https://vercel.com/dashboard
-5.  ORM:
-    -   Prisma:  https://www.prisma.io
+## 2023-06-27
